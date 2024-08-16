@@ -1,0 +1,78 @@
+.ditals{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Contact span{
+    color: var(--color);
+}
+.Contact .imput{
+    display: flex;
+    align-items:start;
+    flex-direction: column;
+    background-color: var( --sc-bg);
+    gap: 15px;
+    border-radius: 8px;
+    
+}
+.Contact .imput input{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #1b1b1b44;
+    background-color: rgb(235, 235, 235);
+}
+.Contact .imput input:focus{
+    border-radius: 5px;
+}
+
+.Contact .imput .masg{
+    position: relative;
+    padding-bottom: 150px;
+    
+}
+.Contact .imput button{
+    padding: 12px 55px;
+    border: none;
+    background-color: var(--color);
+
+}
+.ifrm{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    background-color: var(--sc-bg);
+}
+.ifrm iframe{
+    width: 100%;
+    height: 220px;
+}
+.ditalse{
+    background-color: var(--sc-bg);
+    display: flex;
+    flex-direction: column;
+    gap: 15px;  
+    color: var(--text-clolr);
+    border-radius: 8px;
+
+}
+.ditalse b{
+    padding: 0;
+    font-size: 18px;
+    opacity: 0.7;
+    margin: 0;
+
+}
+.ditalse p{
+    padding: 0;
+    margin: 0;
+    font-size: 18px;
+    opacity: 0.8;
+    font-weight: 600;
+}
+.ditalse span{
+    color: var(--text-clolr);
+    font-size: 20px;
+    font-weight: 600;
+    opacity: 0.8;
+}

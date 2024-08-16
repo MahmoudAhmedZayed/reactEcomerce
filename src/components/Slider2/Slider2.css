@@ -1,0 +1,8 @@
+.Slider2 .sliding {
+    background-color: var(--sc-bg);
+}
+.Slider2 .sliding img{
+    width: 200px;
+    height: 200px;
+    margin: auto;
+}

@@ -1,0 +1,77 @@
+.Footer {
+    background-color: #3d464d ;
+}
+.Footer .alll {
+    height: 40vh;
+    
+}
+.Footer .titel{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    flex-direction: column;
+    color: #fff;
+    height: 340px;
+    
+}
+.Footer .titel p{
+    width: 300px;
+    font-size: 17px;
+    text-transform: lowercase;
+}
+.Footer .detals a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 17px;
+    font-weight: 600;
+    
+}
+.Footer .detals .icon{
+    font-size: 22px;
+    
+}
+.Footer .titel .captal{
+    width: 300px;
+    font-size: 17px;
+    text-transform: capitalize;
+    font-weight: 500;
+}
+.Footer .titel .inapot{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0;
+}
+.Footer .titel .inapot input{
+    width: 90%;
+    padding: 8px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border: none;
+    
+
+}
+.Footer .titel .inapot input:focus{
+    outline: 2px solid rgba(37, 37, 243, 0.514);
+}
+.Footer .titel .inapot button{
+    background-color: var(--color);
+    border: none;
+    padding: 8px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.Footer .hr {
+    width: 97%;
+    margin: auto;
+    color: #fff ;
+    height: 10px;
+}
+.Footer .hr hr{
+    width: 100%;
+    color: #fff;
+}
+.Footer .hhhh{
+    flex-wrap: wrap;
+}
+

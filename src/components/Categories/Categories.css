@@ -1,0 +1,17 @@
+.Categories .cat {
+    background-color: var(--sc-bg);
+    display: flex;
+    align-items: center;
+    color:var( --text-clolr) ;
+    gap: 20px;
+    
+}
+.Categories .cat img{
+    width: 60px;
+    height: 60px;
+}
+.top_name{
+    color: var(--color);
+    margin-top: 100px ;
+    margin-bottom: 50px ;
+}

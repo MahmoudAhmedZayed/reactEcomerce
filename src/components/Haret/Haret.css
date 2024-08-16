@@ -1,0 +1,114 @@
+.api .product_1{
+    background-color: #fff;
+    border: 2px solid var(--color);
+    border-radius: 8px;
+}
+.cop_title{
+    color: var(--color);
+}
+.bb{
+    font-weight: 700;
+    font-size: 18px;
+    width: 70%;
+}
+
+
+
+.api .toop_name{
+    color: var(--color);
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+.api .product_1 .card_img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+.api .product_1 .card_img img{
+    width: 90%;
+    height: 200px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.api .product_1 .card_img img:hover{
+    transform: scale(1.1);
+}
+.api .product_1 .card_body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 15px;
+    gap: 15px;
+}
+
+.api .product_1 .card_body .proccess{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.api .product_1 .card_body .proccess .icone{
+    padding: 4px 8px;
+    border-radius: 5px;
+    color: #fff;
+    background-color: var(--color);
+    font-size: 18px;
+    cursor: pointer;
+}
+.card_images{
+    background-color: #fff;
+    min-height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.card_images img{
+    width: 50%;
+}
+.details_title{
+    background-color: #fff;
+    min-height: 400px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.details_title b:first-child{
+    color: var(--color);
+}
+.details_title b:nth-child(4){
+    color: rgb(3, 195, 3);
+    font-size: 30px;
+    font-weight: normal;
+}
+.details_title strong{
+    font-size: 20px;
+}
+.details_title strong span{
+    text-decoration: underline;
+}
+.details_title p{
+    opacity: 0.7;
+    line-height: 1.5;
+    font-weight: normal;
+}
+.details_title button{
+    width: max-content;
+    padding: 15px 40px;
+    background-color: var(--color);
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.5s;
+    gap: 15px;
+    
+}
+.details_title button:hover{
+    background-color: rgb(109, 109, 1);
+
+}

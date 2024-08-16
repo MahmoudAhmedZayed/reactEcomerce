@@ -1,0 +1,118 @@
+.Header{
+    width: 100%;
+}
+
+.men{
+    background-image: linear-gradient(rgba(20,20,20,0.8) , rgba(20,23,19,0.8)) ,  url(../../assets/imge/history-of-the-blazer.jpg);
+    height: 50vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.women{
+    background-image: linear-gradient(rgba(20,20,20,0.8) , rgba(20,23,19,0.8)) , url(../../assets/imge/people-2594683_1280.jpg);
+    height: 50vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.kids{
+    background-image: linear-gradient(rgba(20,20,20,0.8) , rgba(20,23,19,0.8)) ,  url(../../assets/imge/history-of-the-blazer.jpg);
+    height: 50vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+} 
+.men  div,
+.women div,
+.kids div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    flex-direction: column;
+    padding: 0 30px;
+    color: #fff;
+    gap: 10px;
+}
+.men  div b,
+.women div b,
+.kids div b {
+    font-size: 30px;
+  
+}
+
+
+.men  div p,
+.women div p,
+.kids div p {
+    font-size: 17px;
+    text-align: center;
+    line-height: 1.7;
+
+}
+
+.men  div button,
+.women div button,
+.kids div button {
+    background: transparent;
+    border: 2px solid #fff;
+    padding: 15px 20px;
+    transition: 0.5s;
+    font-size: 18px;
+    
+}
+.men  div button:hover,
+.women div button:hover,
+.kids div button:hover {
+    background-color: var(--color);
+    
+}
+.bbtnn{
+    background: transparent;
+    border: 2px solid #fff;
+    padding: 15px 20px;
+    transition: 0.5s;
+    font-size: 18px;
+}
+.bbtnn:hover{
+    background-color: var(--color);
+
+}
+.detals{
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+}
+.detals .card1{
+    background-image: url(../../assets/imge/pexels-photo-247204-1000x500.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: calc((100% - 20px) / 2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 5px;
+    color: #fff;
+}
+.detals .card2{
+    background-image: url(../../assets/imge/people-2594683_1280.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: calc((100% - 20px) / 2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 5px;
+    color: #fff;
+
+}
+

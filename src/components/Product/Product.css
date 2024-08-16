@@ -1,0 +1,62 @@
+.Product .product_1{
+    background-color: var( --sc-bg );
+    color: var( --text-clolr);
+}
+
+
+
+.Product .toop_name{
+    color: var(--color);
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+.Product .product_1 .card_img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    
+}
+.Product .product_1 .card_img img{
+    width: 90%;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.Product .product_1 .card_img img:hover{
+    transform: scale(1.1);
+}
+.Product .product_1 .card_body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 15px;
+    gap: 15px;
+}
+.Product .product_1 .card_body p{
+    font-size: 18px;
+    margin: 0;
+}
+.Product .product_1 .card_body p del{
+    margin-left: 10px;
+    opacity: 0.4;
+    font-weight: 400;
+}
+.Product .product_1 .card_body .stars{
+    color: gold;
+    font-size: 20px;
+}
+.Product .product_1 .card_body .proccess{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.Product .product_1 .card_body .proccess .icone{
+    padding: 4px 8px;
+    border-radius: 5px;
+    color: #fff;
+    background-color: var(--color);
+    font-size: 18px;
+    cursor: pointer;
+}

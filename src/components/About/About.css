@@ -1,0 +1,37 @@
+.About{
+    color: var(--text-clolr);
+
+}
+.About span{
+    color: var(--color);
+} 
+.ditals{
+    background-color: var(--sc-bg);
+    padding: 20px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}  
+
+.ditals p{
+    color: var(--text-clolr);
+    font-weight: 700;
+    font-size: 18px;
+}
+.ditals button{
+    width: max-content;
+    padding:15px 30px ;
+    border: 2px solid var(--color);
+    color: var(--color);
+    background-color: transparent;
+    border-radius: 0;
+    cursor: pointer;
+}
+.ditals button:hover{
+    background-color: var(--color);
+    color: #fff;
+    border: 2px solid var(--color);
+
+
+}

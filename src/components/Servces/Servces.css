@@ -1,0 +1,12 @@
+.Servces .sr-card {
+    background-color: var(--sc-bg);
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border-radius: 5px;
+    color: var(--text-clolr);
+}
+.Servces .sr-card .icon{
+    color: var(--color);
+    font-size: 25px;
+}
